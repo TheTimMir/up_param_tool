@@ -65,7 +65,8 @@ sudo pacman -S python adb imagemagick
    ```
 
 3) **Edit images and place them in `patched/`**  
-   - Use files from `up_param_extracted/` as a **base** for your edited pictures. Copy ones you want to edit to `patched/`.- Edit images in `patched/`. **Keep the same filename and resolution.**  
+   - Use files from `up_param_extracted/` as a **base** for your edited pictures. Copy ones you want to edit to `patched/`.
+   - Edit images in `patched/`. **Keep the same filename and resolution.**  
      The tool checks each replacement and—if needed—will re-encode and pad your file to match the original **byte size** (tar members must match).
    - Check your edited files in `patched/` have **exactly the same names** as in `up_param_extracted/`.
 
